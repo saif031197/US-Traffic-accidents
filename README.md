@@ -16,20 +16,20 @@ TBA
 
 # 2. Domain and Data: Identify domain and source(s) of data
 
-### Preprocessing that may be necessary (careful here)
+## Preprocessing that may be necessary (careful here)
 
-### Size of data - data must be “big” data (millions of records)
+## Size of data - data must be “big” data (millions of records)
 
-### Tentative plan for analysis on GCP
+## Tentative plan for analysis on GCP
 
-##### 1. EDA and Preprocessing
+### 1. EDA and Preprocessing
 
-#####         2. Dashboard for User group, Dashboard for Data Engineers
+###         2. Dashboard for User group, Dashboard for Data Engineers
 
-#####         3. GCP further processing - ML
+###         3. GCP further processing - ML
 
-#####        4. Evaluation of results
+###        4. Evaluation of results
 
-#####         5. Steps for production model
+###         5. Steps for production model
 
-#####         6. Final Dashboard for User Group
+###         6. Final Dashboard for User Group
