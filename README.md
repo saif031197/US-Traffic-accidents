@@ -4,11 +4,13 @@
 TBA
 
 # Group Members
-1. Akshaya Easwaran
-2. Akshay Gupta
-3. Herleen Sanhotra
-4. . Kanika Saini
-5. Mohammad Saif
+|Name     | 
+|---------|
+|[Akshaya Easwaran](https://github.com/Akshuhrsh)| 
+|[Akshay Gupta]() |    
+|[Herleen Sanhotra](https://github.com/HerleenS) |    
+|[Kanika Saini](https://github.com/skanikasaini6) |
+|[Mohammad Saif](https://github.com/saif031197) |
 
 # 1. Research question: what is the group trying to learn or question to answer? Who is interested (audience)?
 
