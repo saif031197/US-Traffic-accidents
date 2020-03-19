@@ -20,14 +20,14 @@ TBA
 
 ### c.) tentative plan for analysis on GCP
 
-# 3. EDA and Preprocessing
+    #### 1. EDA and Preprocessing
 
-# 4. Dashboard for User group, Dashboard for Data Engineers
+    #### 2. Dashboard for User group, Dashboard for Data Engineers
 
-# 5. GCP further processing - ML
+    #### 3. GCP further processing - ML
 
-# 6. Evaluation of results
+    #### 4. Evaluation of results
 
-# 7. Steps for production model
+    #### 5. Steps for production model
 
-# 8. Final Dashboard for User Group
+    #### 6. Final Dashboard for User Group
