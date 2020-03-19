@@ -20,7 +20,7 @@ TBA
 
 ###     c.) tentative plan for analysis on GCP
 
---1. EDA and Preprocessing
+####         1. EDA and Preprocessing
 
 ####         2. Dashboard for User group, Dashboard for Data Engineers
 
