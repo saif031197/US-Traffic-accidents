@@ -14,11 +14,11 @@ TBA
 
 # 2. Domain and Data: Identify domain and source(s) of data
 
-### a.) preprocessing that may be necessary (careful here)
+### ⋅⋅a.) preprocessing that may be necessary (careful here)
 
-### b.) size of data - data must be “big” data (millions of records)
+### ⋅⋅b.) size of data - data must be “big” data (millions of records)
 
-### c.) tentative plan for analysis on GCP
+### ⋅⋅c.) tentative plan for analysis on GCP
 
    #### 1. EDA and Preprocessing
 
