@@ -12,11 +12,11 @@ TBA
 |[Kanika Saini](https://github.com/skanikasaini6) |
 |[Mohammad Saif](https://github.com/saif031197) |
 
-## 1. Research question: 
+## Research question: 
 
 We are trying to predict the chances for traffic accidents in the  US based on certain attributes like time, weather and location. The outcomes of this analysis will help the government authorities understand various factors that lead to traffic accidents and make sound decisions that can save thousands of lives every year.
 
-## 2. Domain and Data: 
+## Domain and Data: 
 
 [We are using US-Accidents: A Countrywide Traffic Accident Dataset from Kaggle.](https://www.kaggle.com/sobhanmoosavi/us-accidents)
 
@@ -36,6 +36,12 @@ This data can be used to carry out various predictions like accident-prone areas
 There are 3 million accident records in this dataset collected from February 2016 to December 2019. The dataset has 49 columns(attributes) that are both categorical and numerical.
 
 ### Tentative plan for analysis on GCP
+
+| **Task**        | **Plan**           | **Date**  |
+| ------------- |:-------------|:-----|
+| *EDA and preprocessing*      | *Thoroughly going over the dataset to discover patterns, spot anomalies, test the hypothesis and check the assumptions through summary statistics and graphical representation. We would also perform the preprocessing steps mentioned in preprocessing.*  | *03/26/2020* |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 #### 1. EDA and Preprocessing
 
