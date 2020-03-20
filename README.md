@@ -43,7 +43,7 @@ There are 3 million accident records in this dataset collected from February 201
 | *Dashboard for User group, Dashboard for Data Engineers*      | *Creating a meaningful dashboard using Data Studio for users that tells them what we are trying to predict in simple terms.
 Creating a dashboard for Data Engineers in Data Studio going deeper into the attributes that were used for metrics and the analysis we are trying to achieve.
 We will use MySQL or BigQuery in GCP to be the source for Data Studio.
-*      |   $12 |
+*      |   *03/26/2020* |
 | zebra stripes | are neat      |    *03/26/2020* |
 
 #### 1. EDA and Preprocessing
