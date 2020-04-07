@@ -16,6 +16,10 @@ TBA
 
 We are trying to predict the chances for traffic accidents in the  US based on certain attributes like time, weather and location. The outcomes of this analysis will help the government authorities understand various factors that lead to traffic accidents and make sound decisions that can save thousands of lives every year.
 
+## Audience Definition: 
+
+The intended audience of our project are US road transportation officials, law enforcement officers, governement authorities as well as general public. The predictions from our project will help government authorities in mitigating road accidents and will also help in spreading awareness among the general public.
+
 ## Domain and Data: 
 
 [We are using US-Accidents: A Countrywide Traffic Accident Dataset from Kaggle.](https://www.kaggle.com/sobhanmoosavi/us-accidents)
