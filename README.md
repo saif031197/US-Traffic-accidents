@@ -48,3 +48,20 @@ There are 3 million accident records in this dataset collected from February 201
 | *Changes to the Dashboard* | *This step will be implemented if the dataset is updated by the author in the near future or if any additional algorithms are to be implemented.* | *05/04/2020*|
 
 
+
+### Research Citations:
+1. Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “A Countrywide Traffic Accident Dataset.”, 2019.
+
+This paper presents a country-wide traffic accident dataset along with some insights on the spatiotemporal characteristics of accidents in the dataset. The dataset includes important contextual information such as environmental stimuli. Through a comprehensive process of data collection, integration and augmentation the authors have created a large-scale publicly available database of accident information.
+
+2. Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
+
+To address the challenges in existing studies like using small-scale datasets with limited coverage, being dependent on extensive sets of data, and being not applicable for real-time purposes, the paper proposes  a new solution for real-time traffic accident prediction using easy-to-obtain, but sparse data based on a deep neural-network model. This model utilizes a variety of data attributes such as traffic events, weather data, points-of-interest, and time. The paper also shows the impact of traffic information, time and points-of-interest data for real-time accident prediction.
+
+3. [https://www.kaggle.com/biphili/road-accidents-in-us] - Road Accidents in US.
+
+The above kaggle kernel link helped us in understanding the dataset more clearly and also the preprocessing steps performed in it inspired some of our preprocessing steps. The kernel had many visualizations and gave us  some valuable insights on the dataset.
+
+
+
+
