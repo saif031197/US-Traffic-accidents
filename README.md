@@ -1,4 +1,4 @@
-# ITCS6155-KBS-Spring2020-Project
+# Prediction of traffic accidents in the US
 
 # Project Site
 TBA
