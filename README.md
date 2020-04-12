@@ -45,6 +45,7 @@ There are 3 million accident records in this dataset collected from February 201
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/EDA/Severity.png" width="442">
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/EDA/Severity%20States.png" width="1131">
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/EDA/Visibility.png" width="704">
+
 ### Tentative plan for analysis on GCP
 
 | **Task**        | **Plan**           | **Date**  |
