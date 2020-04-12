@@ -1,7 +1,7 @@
 # Prediction of traffic accidents in the US
 
 # Project Site
-TBA
+[Goodle Cloud Console](https://console.cloud.google.com/home/dashboard?project=kbs-final-project)
 
 # Group Members
 |Name     | 
@@ -39,6 +39,9 @@ This data can be used to carry out various predictions like accident-prone areas
 
 There are 3 million accident records in this dataset collected from February 2016 to December 2019. The dataset has 49 columns(attributes) that are both categorical and numerical.
 
+###Exploratory Data Analysis
+
+<img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/EDA/Accident%20Prone.png" width="590">
 ### Tentative plan for analysis on GCP
 
 | **Task**        | **Plan**           | **Date**  |
