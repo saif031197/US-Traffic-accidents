@@ -1,7 +1,9 @@
 # Prediction of traffic accidents in the US
 
 # Project Site
-[Goodle Cloud Console](https://console.cloud.google.com/home/dashboard?project=kbs-final-project)
+[Google Cloud Console](https://console.cloud.google.com/home/dashboard?project=kbs-final-project)
+[User Dashboard](https://datastudio.google.com/u/1/reporting/e3384c22-c9d5-4e66-b916-0e8ddf91c3f5/page/QryKB)
+[Colab Notebook](https://colab.research.google.com/drive/1AL_JfULDYx4OxKifAW7gTJkpqUxHiG2M#scrollTo=QHzLs6Zflt-k)
 
 # Group Members
 |Name     | 
