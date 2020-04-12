@@ -1,5 +1,6 @@
 # Prediction of traffic accidents in the US
 
+Spring 2020 Knowledge Based Systems Final project
 # Project Site
 [Google Cloud Console](https://console.cloud.google.com/home/dashboard?project=kbs-final-project)
 
