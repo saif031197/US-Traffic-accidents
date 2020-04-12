@@ -46,6 +46,20 @@ There are 3 million accident records in this dataset collected from February 201
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/EDA/Severity%20States.png" width="1131">
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/EDA/Visibility.png" width="704">
 
+### Detailed plan for data ingest, ML, Evaluation of Results and Presentation of Results
+
+#### Data Ingest - 
+For this task we created a bucket on GCP and uploaded our dataset and made it public so that it can be accessed from anywhere by anyone and its especialyl useful when working on google colab outside of GCP
+
+#### Machine Learning - 
+Before starting on the Machine Learning model we need to deal with missing values as needed depending on the type of data, either remove the feature entirely or impute the missing values with mean, mode or median.
+
+#### Evaluation of Results - 
+Since this is a huge dataset with around 700k entries, splitting the data into test and train could be beneficial but a better way to evaluate the model is to use cross validation.
+
+#### Presentation of Results-
+A display of the most contributing factors to the severity of accidents and test scenarios where how changing a factor leads to different results.
+
 ### Tentative plan for analysis on GCP
 
 | **Task**        | **Plan**           | **Date**  |
