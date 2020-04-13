@@ -91,7 +91,7 @@ The final product must be evaluated in such a way that it tells its performance 
 When evaluating our model and the performance doesn’t seem to increase, looking towards adding new features might yield better results than trying to fine tune the existing ones.
 
 
-### Tentative plan for analysis on GCP
+## Tentative plan for analysis on GCP
 
 | **Task**        | **Plan**           | **Date**  |
 | ------------- | ------------- | ----- |
@@ -105,7 +105,7 @@ When evaluating our model and the performance doesn’t seem to increase, lookin
 
 
 
-### Research Citations:
+## Research Citations:
 1. Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “A Countrywide Traffic Accident Dataset.”, 2019.
 
 2. Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
