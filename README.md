@@ -65,6 +65,32 @@ Since this is a huge dataset with around 3 million entries, splitting the data i
 #### Presentation of Results-
 A display of the most contributing factors to the severity of accidents and test scenarios where how changing a factor leads to different results.
 
+### 43 Rules of Machine Learning
+
+While there may be that many rules not all of them are relevant to our project so as a result, we’re going to discuss the rules that we feel are relevant to our project.
+
+#### Rule 2: First, design and implement metrics
+This rule explains how looking at metrics before building the model ensures that we don’t run into problems later and to be liberal when gathering metrics, our project will explore several different metrics which ensures that we get a broader perspective
+#### Rule 4: Keep the first model simple and get the infrastructure right
+Building a simple model as a baseline for building complex models
+#### Rule 7: Turn heuristics into features or handle them externally.
+This rule tells how to add old heuristics that contain important information to the machine learning system. For our project, we will explore existing heuristics and will try to include them in our machine learning model as the rule says.
+#### Rule 11: Give feature columns owners and documentation
+When dealing in a dataset with many features we need to keep track of who is managing what feature and assign roles to members accordingly, our project has 49 features so each of us will get around 10 features to play with.
+#### Rule 17: Start with directly observed and reported features as opposed to learned features
+Learned features are created using external systems and if an external system is used to create a feature, remember that the external system has its own objective. The external system's objective may be only weakly correlated with your current objective.
+#### Rule 20: Combine and modify existing features to create new features in human-understandable ways
+In the preprocessing step, some features can be transformed to create new features. The dicretization of continuous features is one way to do so. For our project we have used this to transform the continuous feature ‘Temperature’ and create a new feature ‘Binned_Temperature(F)’.Similarly, the features ‘Wind_Chill’, ‘Humidity’ and ‘Pressure’ can be converted into new features with discrete values.
+#### Rule 22: Clean up features you are no longer using
+Any unnecessary feature which is not being used in the model should be dropped. This way the relevant features can work faster for our models. In the initial stages of our project, we dropped a few features with more than 100k missing records. We can always add back these features if it gives meaningful results in our models in later stages. 
+#### Rule 30: Importance-weight sampled data
+In a nutshell, attributes should be inspected before being dropped.
+#### Rule 39: Launch decisions are a proxy for long-term product goals
+The final product must be evaluated in such a way that it tells its performance for the next five years. All the metrics should be taken into consideration. Various error metrics and performance metrics will be used in this project.
+#### Rule 41: When performance plateaus, look for qualitatively new sources of information to add rather than refining existing signals.
+When evaluating our model and the performance doesn’t seem to increase, looking towards adding new features might yield better results than trying to fine tune the existing ones.
+
+
 ### Tentative plan for analysis on GCP
 
 | **Task**        | **Plan**           | **Date**  |
