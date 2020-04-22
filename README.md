@@ -19,7 +19,7 @@ Spring 2020 Knowledge Based Systems Final project
 
 ## Research question: 
 
-We are trying to build an early prediction system to predict the probability of severity of traffic accidents in the  US based on certain attributes like time, weather and location. The outcomes of this analysis will help the government authorities understand various factors that lead to traffic accidents and make sound decisions that can save thousands of lives every year.
+We are building an early prediction system to predict the probability of severity of traffic accidents in the  US based on certain attributes like time, weather and location. The outcomes of this analysis will help the government authorities understand various factors that lead to traffic accidents and make sound decisions that can save thousands of lives every year.
 
 ## Audience Definition: 
 
