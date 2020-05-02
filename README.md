@@ -116,7 +116,7 @@ When evaluating our model and the performance doesn’t seem to increase, lookin
 
 3. [Road Accidents in US.](https://www.kaggle.com/biphili/road-accidents-in-us)
 
-4. [Notebook to predict severity of accident[(https://www.kaggle.com/phip2014/ml-to-predict-accident-severity-pa-mont)
+4. [Notebook to predict severity of accident](https://www.kaggle.com/phip2014/ml-to-predict-accident-severity-pa-mont)
 
 The research paper “A Countrywide Traffic Accident Dataset.” provided us the dataset upon which our project is built on.The dataset includes important contextual information such as environmental stimuli which helps us in predicting the causes for road accidents.The research paper "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." shows the impact of traffic information, time and points-of-interest data for real-time accident prediction. The paper helps us in understanding the factors that need to be considered for real-time accident prediction. The kaggle kernel link helped us in understanding the dataset more clearly and also the preprocessing steps performed in it inspired some of our preprocessing steps. The kernel had many visualizations and gave us  some valuable insights on the dataset.
 
