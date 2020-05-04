@@ -6,13 +6,13 @@ Spring 2020 Knowledge Based Systems Final project
 | ------ | ------ | ------ |
 
 # Group Members
-|Name     | 
-|---------|
-|[Akshaya Easwaran](https://github.com/Akshuhrsh)| 
+|Name     | [Akshaya Easwaran](https://github.com/Akshuhrsh)| 
 |[Akshay Gupta](https://github.com/akshaygupta16) |    
 |[Herleen Sanhotra](https://github.com/HerleenS) |    
 |[Kanika Saini](https://github.com/skanikasaini6) |
 |[Mohammad Saif](https://github.com/saif031197) |
+|---------|
+
 
 ## Research question: 
 
