@@ -108,10 +108,18 @@ _Summary for Model 2_
 ### Model 2 Evaluation
 
 * Area under [_precision-recall_ curve](https://www.geeksforgeeks.org/precision-recall-curve-ml/): 0.944
-* Area under _ROC_ curve: 0.981
-* Precision: 87.0%
-* Recall: 86.8%
-* Log loss: 0.318 
+* Area under [_ROC_ curve](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5): 0.981
+* [Precision](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c): 87.0%
+* [Recall](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c): 86.8%
+* [Log loss](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a): 0.318 
+* [F1 Score](https://deepai.org/machine-learning-glossary-and-terms/f-score): 0.869
+
+Confusion Matrix for prediction on testing data:
+<img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/Model_2_CM.png">
+
+Feature Importance:
+<img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/Model_2_Feature_Importance.png">
+
 
 ## Tentative plan for analysis on GCP
 
