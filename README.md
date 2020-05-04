@@ -86,6 +86,16 @@ When evaluating our model and the performance doesn’t seem to increase, lookin
 
 ## Steps for AutoML in GCP
 
+AutoML is a pretty intuitive way to do Machine Learning related tasks in GCP, it just needs the data, the Dependent Variable and the dependent variable and it handles the rest for you automatically, this convenience ofcourse comes at a cost but if we made sure to efficiently utilise credits available to us.
+
+AutoML is Under Artificial Intelligence and can use data from an existing BigQuery Table or imported directly from local system in a CSV format. We chose to first clean our data as mentioned in the previous step, make a new bigquery table with the processed dataset and chose to import it to use for our evaluation.
+
+After the data is succesfully imported, AutoML generates a bunch of MetaData such as Invalid entries, missing values, Corelation to target feature, unique values and the type of data. Before starting the training we can choose our target feature, which in our case is _Severity_ of the accident and the data split, which we set to default (80% Training, 10% Cross-Validation, 10% Testing).
+
+Now we proceed to training, where we get the option to set our budget in terms of node-hours, each node-hour costs approximately $19.32 so we had to choose the cost carefully because once done we wouldn't be able to run it again, after that we could select the input features, we chose to select all as we already performed corelation and removed features which we deemed unncessary for training.
+
+After all of this, its just a matter of few hours(depending on how many node-hours we opted for) to get our results!
+
 ## Results and Evaluation
 
 We have 2 AutoML models for our evaluation, the first one was just testing the waters and checking AutoML's capabilities so as a result we limited the training node-hour to 1, the minimum allowed in order to make it budget friendly, after evaluating the result with Model 1 we went ahead and performed the same training but with 5 node-hours instead, exhausting our complete budget in the process but getting slightly better results. Model 2 will serve as the basis of our final evaluation but a summary of Model 1 has been provided for reference.
