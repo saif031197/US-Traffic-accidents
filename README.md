@@ -84,7 +84,7 @@ The final product must be evaluated in such a way that it tells its performance 
 When evaluating our model and the performance doesn’t seem to increase, looking towards adding new features might yield better results than trying to fine tune the existing ones.
 
 ## Preprocessing the Data
-Most of the steps involved in preprocessing were covered in the notebook, basically imputing median values where we felt its feasible, eliminating rows with a single missing value is present and selecting features based on preliminary corelation matrix. All in all we ended up with 33 features and 2.1m rows
+Most of the steps involved in preprocessing were covered in the [notebook](https://colab.research.google.com/drive/1AL_JfULDYx4OxKifAW7gTJkpqUxHiG2M#scrollTo=QHzLs6Zflt-k), basically imputing median values where we felt its feasible, eliminating rows with a single missing value is present and selecting features based on preliminary corelation matrix. All in all we ended up with 33 features and 2.1m rows
 
 ## Steps for AutoML in GCP
 
