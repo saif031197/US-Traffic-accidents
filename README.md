@@ -115,9 +115,11 @@ _Summary for Model 2_
 * [F1 Score](https://deepai.org/machine-learning-glossary-and-terms/f-score): 0.869
 
 Confusion Matrix for prediction on testing data:
+
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/Model_2_CM.png">
 
 Feature Importance:
+
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/Model_2_Feature_Importance.png">
 
 
