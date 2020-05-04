@@ -98,6 +98,9 @@ When evaluating our model and the performance doesn’t seem to increase, lookin
 We have 2 AutoML models for our evaluation, the first one was just testing the waters and checking AutoML's capabilities so as a result we limited the training node-hour to 1, the minimum allowed in order to make it budget friendly, after evaluating the result with Model 1 we went ahead and performed the same training but with 5 node-hours instead, exhausting our complete budget in the process but getting slightly better results. Model 2 will serve as the basis of our final evaluation but a summary of Model 1 has been provided for reference.
 
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/Model_1_Summary.png">
+*Summary for Model 1*
+<img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/Model_2_Summary.png">
+*Summary for Model 2*
 
 ## Tentative plan for analysis on GCP
 
