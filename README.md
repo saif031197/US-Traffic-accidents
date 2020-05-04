@@ -11,7 +11,7 @@ Spring 2020 Knowledge Based Systems Final project
  [Herleen Sanhotra](https://github.com/HerleenS) |    
  [Kanika Saini](https://github.com/skanikasaini6) |
  [Mohammad Saif](https://github.com/saif031197) |
-| --------- | --------- | --------- | --------- | --------- |
+| ------ | ------ | ------ | ------ | ------ |
 
 
 ## Research question: 
