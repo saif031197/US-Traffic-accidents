@@ -107,7 +107,7 @@ _Summary for Model 2_
 
 ### Model 2 Evaluation
 
-* Area under [_precision-recall_ curve(https://www.geeksforgeeks.org/precision-recall-curve-ml/): 0.944
+* Area under [_precision-recall_ curve](https://www.geeksforgeeks.org/precision-recall-curve-ml/): 0.944
 * Area under _ROC_ curve: 0.981
 * Precision: 87.0%
 * Recall: 86.8%
