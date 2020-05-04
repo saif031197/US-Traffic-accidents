@@ -99,11 +99,11 @@ We have 2 AutoML models for our evaluation, the first one was just testing the w
 
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/Model_1_Summary.png">
 
-* Summary for Model 1 *
+_Summary for Model 1_
 
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/Model_2_Summary.png">
 
-* Summary for Model 2 *
+_Summary for Model 2_
 
 ## Tentative plan for analysis on GCP
 
