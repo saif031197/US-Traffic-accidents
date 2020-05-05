@@ -88,9 +88,9 @@ Most of the steps involved in preprocessing were covered in the [notebook](https
 
 ## Steps for AutoML in GCP
 
-AutoML is a pretty intuitive way to do Machine Learning related tasks in GCP, it just needs the data, the Dependent Variable and the dependent variable and it handles the rest for you automatically, this convenience ofcourse comes at a cost but if we made sure to efficiently utilise credits available to us.
+AutoML is a pretty intuitive way to do Machine Learning related tasks in GCP, it just needs the data, and the dependent variable and it handles the rest for you automatically, this convenience ofcourse comes at a cost but if we made sure to efficiently utilize credits available to us.
 
-AutoML is Under Artificial Intelligence and can use data from an existing BigQuery Table or imported directly from local system in a CSV format. We chose to first clean our data as mentioned in the previous step, make a new bigquery table with the processed dataset and chose to import it to use for our evaluation.
+AutoML in GCP can be done by using the Tables under Artificial Intelligence feature in the Navigation menu  and it can use data from an existing BigQuery Table or can be imported directly from local system in a CSV format. We chose to first clean our data as mentioned in the previous step, make a new bigquery table with the processed dataset and chose to import it to use for our evaluation.
 
 After the data is succesfully imported, AutoML generates a bunch of MetaData such as Invalid entries, missing values, Corelation to target feature, unique values and the type of data. Before starting the training we can choose our target feature, which in our case is _Severity_ of the accident and the data split, which we set to default (80% Training, 10% Cross-Validation, 10% Testing).
 
