@@ -98,6 +98,8 @@ Now we proceed to training, where we get the option to set our budget in terms o
 
 After all of this, its just a matter of few hours(depending on how many node-hours we opted for) to get our results!
 
+GCP AutoML used Deep Neural Networks (DNN) Linear model for modeling our dataset.
+
 ## Results and Evaluation
 
 We have 2 AutoML models for our evaluation, the first one was just testing the waters and checking AutoML's capabilities so as a result we limited the training node-hour to 1, the minimum allowed in order to make it budget friendly, after evaluating the result with Model 1 we went ahead and performed the same training but with 5 node-hours instead, exhausting our complete budget in the process but getting slightly better results. Model 2 will serve as the basis of our final evaluation but a summary of Model 1 has been provided for reference.
