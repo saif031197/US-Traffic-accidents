@@ -10,15 +10,15 @@ Spring 2020 Knowledge Based Systems Final project
 | ------ | ------ | ------ | ------ | ------ |
 
 
-## Research question: 
+## Research question 
 
 We are building an early prediction system to predict the probability of severity of traffic accidents in the  US based on certain attributes like time, weather and location. The outcomes of this analysis will help the government authorities understand various factors that lead to traffic accidents and make sound decisions that can save thousands of lives every year.
 
-## Audience Definition: 
+## Audience Definition 
 
 The intended audience of our project are US road transportation officials, law enforcement officers, governement authorities as well as general public. The predictions from our project will help government authorities in mitigating road accidents and will also help in spreading awareness among the general public.
 
-## Domain and Data: 
+## Domain and Data 
 
 [We are using US-Accidents: A Countrywide Traffic Accident Dataset from Kaggle.](https://www.kaggle.com/sobhanmoosavi/us-accidents)
 
@@ -33,7 +33,7 @@ This data can be used to carry out various predictions like accident-prone areas
 3. Text mining needs to be done for the columns: Start_Time, End_Time, Street, Weather_Timestamp. 
 4. Data Encoding on all the categorical columns (City, Country, Timezone, etc) can also be done. 
 
-### Size of data:
+### Size of data
 
 There are 3 million accident records in this dataset collected from February 2016 to December 2019. The dataset has 49 columns(attributes) that are both categorical and numerical.
 
@@ -46,16 +46,16 @@ There are 3 million accident records in this dataset collected from February 201
 
 ## Detailed plan for data ingest, ML, Evaluation of Results and Presentation of Results
 
-#### Data Ingest - 
+#### Data Ingest 
 For this task we created a bucket on GCP and uploaded our dataset and made it public so that it can be accessed from anywhere by anyone and its especialyl useful when working on google colab outside of GCP
 
-### Machine Learning - 
+### Machine Learning
 Before starting on the Machine Learning model we need to deal with missing values as needed depending on the type of data, either remove the feature entirely or impute the missing values with mean, mode or median.
 
-### Evaluation of Results - 
+### Evaluation of Results
 Since this is a huge dataset with around 3 million entries, splitting the data into test and train could be beneficial but a better way to evaluate the model is to use cross validation.
 
-### Presentation of Results-
+### Presentation of Results
 A display of the most contributing factors to the severity of accidents and test scenarios where how changing a factor leads to different results.
 
 ## 43 Rules of Machine Learning
@@ -142,7 +142,7 @@ Feature Importance:
 
 
 
-## Research Citations:
+## Research Citations
 1. Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “A Countrywide Traffic Accident Dataset.”, 2019.
 
 2. Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
