@@ -9,12 +9,12 @@ Spring 2020 Knowledge Based Systems Final project
 | [Akshaya Easwaran](https://github.com/Akshuhrsh) | [Akshay Gupta](https://github.com/akshaygupta16) |  [Herleen Sanhotra](https://github.com/HerleenS) | [Kanika Saini](https://github.com/skanikasaini6) | [Mohammad Saif](https://github.com/saif031197) |
 | ------ | ------ | ------ | ------ | ------ |
 
-# Duties
-Akshaya Easwaran - 
-Akshay Gupta -
-Herleen Sanhotra -
-Kanika Saini -
-Mohammad Saif - 
+# Contribution
+1.Akshaya Easwaran - 
+2.Akshay Gupta -
+3.Herleen Sanhotra -
+4.Kanika Saini -
+5.Mohammad Saif - 
 
 ## Research question 
 
