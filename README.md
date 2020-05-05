@@ -10,7 +10,7 @@ Spring 2020 Knowledge Based Systems Final project
 | ------ | ------ | ------ | ------ | ------ |
 
 ### Contribution
-1.Akshaya Easwaran - 
+1.Akshaya Easwaran - User Dashboard Creation, came up with the idea of using AutoML in GCP and contributed to creating models,  updated information in GitHub, contributed to 43 rules of machine learning activity. 
 
 2.Akshay Gupta -
 
@@ -146,8 +146,8 @@ Feature Importance:
 | ------------- | ------------- | ----- |
 | *EDA and preprocessing*      | *Thoroughly going over the dataset to discover patterns, spot anomalies, test the hypothesis and check the assumptions through summary statistics and graphical representation. We would also perform the preprocessing steps mentioned in preprocessing and create a notebook with preprocessing steps.*  | *03/26/2020* |
 | *Dashboard for User group, Dashboard for Data Engineers*      | *Creating a meaningful dashboard using Data Studio for users that tells them what we are trying to predict in simple terms. Creating a dashboard for Data Engineers in Data Studio going deeper into the attributes that were used for metrics and the analysis we are trying to achieve. We will use MySQL or BigQuery in GCP to be the source for Data Studio.*|  *03/26/2020* |
-| *GCP further processing - ML* | *After getting insights from visualization of the data, supervised and unsupervised machine learning algorithms will be implemented. This is a binary classification problem. Classification algorithms like logistic regression, gradient boosting classifier, decision tree classifier, etc will be implemented.*|  *04/14/2020* |
-| *Evaluation of results* | *The results will be evaluated using various error metrics like ROC curve, , etc. The lower the error metric value, the better the model. ROC curve can also be visualized.* | *04/16/2020* |
+| *AutoML using GCP* | *Bringing the clean dataset to GCP cloud storage and then to Big Query. Performing AutoML in GCP and explore various features in it*|  *04/14/2020* |
+| *Evaluation of results* | *The results will be evaluated using various error metrics like ROC curve,Precision Recall Curve, Precision, Recall, Log loss, Confusion Matrix and F1 score. The lower the error metric value, the better the model. ROC curve can also be visualized.* | *04/16/2020* |
 | *Final Dashboard for User Group* | *Final dashboard with the visualizations of the performances of all the algorithms will be included. This will give an idea about the best working model to the user.* | *04/30/2020*|
 | *Changes to the Dashboard* | *This step will be implemented if the dataset is updated by the author in the near future or if any additional algorithms are to be implemented.* | *05/04/2020*|
 
