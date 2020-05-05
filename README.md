@@ -9,7 +9,6 @@ Spring 2020 Knowledge Based Systems Final project
 | [Akshaya Easwaran](https://github.com/Akshuhrsh) | [Akshay Gupta](https://github.com/akshaygupta16) |  [Herleen Sanhotra](https://github.com/HerleenS) | [Kanika Saini](https://github.com/skanikasaini6) | [Mohammad Saif](https://github.com/saif031197) |
 | ------ | ------ | ------ | ------ | ------ |
 
-
 ## Research question 
 
 We are building an early prediction system to predict the probability of severity of traffic accidents in the  US based on certain attributes like time, weather and location. The outcomes of this analysis will help the government authorities understand various factors that lead to traffic accidents and make sound decisions that can save thousands of lives every year.
