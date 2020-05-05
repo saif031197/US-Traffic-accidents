@@ -1,4 +1,4 @@
-# Prediction of traffic accidents in the US
+# Prediction of Severity of traffic accidents in the US
 
 Spring 2020 Knowledge Based Systems Final project
 # Project Site
