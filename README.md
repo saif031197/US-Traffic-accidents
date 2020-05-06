@@ -1,7 +1,7 @@
 # Prediction of severity of traffic accidents in the US
 
 Spring 2020 Knowledge Based Systems Final project
-# Project Site
+# Project Sites
 | [Google Cloud Console](https://console.cloud.google.com/home/dashboard?project=kbs-final-project) | [User Dashboard](https://datastudio.google.com/u/1/reporting/e3384c22-c9d5-4e66-b916-0e8ddf91c3f5/page/QryKB) | [Colab Notebook](https://colab.research.google.com/drive/1AL_JfULDYx4OxKifAW7gTJkpqUxHiG2M#scrollTo=QHzLs6Zflt-k) | [Presentation](https://drive.google.com/open?id=1INC212S_kL58sm_a-0ra7NPdxA9b1PlQ) |
 | ------ | ------ | ------ | ------ |
 
@@ -107,7 +107,7 @@ Now we proceed to training, where we get the option to set our budget in terms o
 
 After all of this, its just a matter of few hours(depending on how many node-hours we opted for) to get our results!
 
-GCP AutoML used Deep Neural Networks (DNN) Linear model for modeling our dataset.
+GCP AutoML used [Deep Neural Networks (DNN) Linear model](https://www.tensorflow.org/api_docs/python/tf/estimator/DNNLinearCombinedClassifier) for modeling our dataset.
 
 ## Results and Evaluation
 
@@ -123,8 +123,8 @@ _Summary for Model 2_
 
 ### Model 2 Evaluation
 
-* Area under [_precision-recall_ curve](https://www.geeksforgeeks.org/precision-recall-curve-ml/): 0.944
-* Area under [_ROC_ curve](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5): 0.981
+* [Area under _precision-recall_ curve](https://www.geeksforgeeks.org/precision-recall-curve-ml/): 0.944
+* [Area under _ROC_ curve](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5): 0.981
 * [Precision](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c): 87.0%
 * [Recall](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c): 86.8%
 * [Log loss](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a): 0.318 
@@ -138,7 +138,7 @@ Feature Importance:
 
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/Model_2_Feature_Importance.png">
 
-So now that we have our model ready, what can we do with it? We can take some real data and make batch predictions, deploy the model for predictions through an API or export the model as a TensorFlow pickle to use it locally, lets check out using predictions locally. So for our prediction we used Craver Rd in UNC Charlotte as the location of incident, at 10AM using weather report from 5th May 2020 and input the attributes for the model to predict the severity incase an accident does happen at the location.
+So now that we have our model ready, what can we do with it? We can take some real data and make batch predictions, deploy the model for predictions through an API or export the model as a TensorFlow pickle to use it locally, lets check out using predictions locally. So for our prediction we used [Craver Rd](https://www.ninertimes.com/arts_and_entertainment/craver-road-walk-sign-is-on/article_417bb1ae-d4cf-5792-9576-cf62289b56f5.html) in UNC Charlotte as the location of incident, at 10AM using weather report from 5th May 2020 and input the attributes for the model to predict the severity incase an accident does happen at the location.
 
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/UNC_Charlotte_Map.jpg">
 
@@ -172,16 +172,13 @@ To summarise, we used a big dataset in GCP to evaluate the severity of accidents
 
 
 ## Research Citations
-1. Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “A Countrywide Traffic Accident Dataset.”, 2019.
+1. [Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “A Countrywide Traffic Accident Dataset.”, 2019.](https://arxiv.org/abs/1906.05409)
 
-2. Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
+2. [Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.](https://dl.acm.org/doi/abs/10.1145/3347146.3359078)
 
 3. [Road Accidents in US.](https://www.kaggle.com/biphili/road-accidents-in-us)
 
 4. [Notebook to predict severity of accident](https://www.kaggle.com/phip2014/ml-to-predict-accident-severity-pa-mont)
 
 The research paper “A Countrywide Traffic Accident Dataset.” provided us the dataset upon which our project is built on.The dataset includes important contextual information such as environmental stimuli which helps us in predicting the causes for road accidents.The research paper "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." shows the impact of traffic information, time and points-of-interest data for real-time accident prediction. The paper helps us in understanding the factors that need to be considered for real-time accident prediction. The kaggle kernel link helped us in understanding the dataset more clearly and also the preprocessing steps performed in it inspired some of our preprocessing steps. The kernel had many visualizations and gave us  some valuable insights on the dataset. The Notebook link from Kaggle helped us in the cleaning of the dataset.
-
-
-
 
