@@ -139,6 +139,9 @@ Feature Importance:
 
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/Model_2_Feature_Importance.png">
 
+## GCP functionalities used in the project
+1. Google Clooud Storage to store our dataset
+
 
 ## Tentative plan for analysis on GCP
 
