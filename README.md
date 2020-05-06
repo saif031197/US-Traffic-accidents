@@ -14,9 +14,9 @@ Spring 2020 Knowledge Based Systems Final project
 
 2.Akshay Gupta - Feature selection and worked in the overall data modelling process using GCP's Auto ML. Also contributed in user dashboard creation.
 
-3.Herleen Sanhotra -
+3.Herleen Sanhotra - Setting up project meetings, worked on the colab notebook for exploration and visualization of the dataset. Worked with initial AutoML trial where we imported the dataset into AutoML tables for training the model.
 
-4.Kanika Saini -
+4.Kanika Saini - Worked on Data Studio Visualizations and EDA part in the Google Colab notebook. Pitched in ideas for various ways to explore data.
 
 5.Mohammad Saif - 
 
