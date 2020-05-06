@@ -12,7 +12,7 @@ Spring 2020 Knowledge Based Systems Final project
 ### Contribution
 1.Akshaya Easwaran - User Dashboard Creation, came up with the idea of using AutoML in GCP and contributed to creating models,  contributed to content in GitHub, contributed to 43 rules of machine learning activity. 
 
-2.Akshay Gupta -
+2.Akshay Gupta - Feature selection and worked in the overall data modelling process using GCP's Auto ML. Also contributed in user dashboard creation.
 
 3.Herleen Sanhotra -
 
