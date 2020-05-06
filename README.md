@@ -8,18 +8,8 @@ Spring 2020 Knowledge Based Systems Final project
 # Group Members
 | [Akshaya Easwaran](https://github.com/Akshuhrsh) | [Akshay Gupta](https://github.com/akshaygupta16) |  [Herleen Sanhotra](https://github.com/HerleenS) | [Kanika Saini](https://github.com/skanikasaini6) | [Mohammad Saif](https://github.com/saif031197) |
 | :------: | :------: | :------: | :------: | :------: |
-| User Dashboard Creation, came up with the idea of using AutoML in GCP and contributed to creating models,  contributed to content in GitHub, contributed to 43 rules of machine learning activity | Feature selection and worked in the overall data modelling process using GCP's Auto ML. Also contributed in user dashboard creation | Setting up project meetings, worked on the colab notebook for exploration and visualization of the dataset. Worked with initial AutoML trial where we imported the dataset into AutoML tables for training the model | Worked on Data Studio Visualizations and EDA part in the Google Colab notebook. Pitched in ideas for various ways to explore data | nothing |
+| User Dashboard Creation, came up with the idea of using AutoML in GCP and contributed to creating models,  contributed to content in GitHub, contributed to 43 rules of machine learning activity | Feature selection and worked in the overall data modelling process using GCP's Auto ML. Also contributed in user dashboard creation | Setting up project meetings, worked on the colab notebook for exploration and visualization of the dataset. Worked with initial AutoML trial where we imported the dataset into AutoML tables for training the model | Worked on Data Studio Visualizations and EDA part in the Google Colab notebook. Pitched in ideas for various ways to explore data | Setup the Github,  content, formatting, screenshots and chose the data, setup the Cloud Console, imported data to BigQuery and made the Dashboards, performed the preprocessing for the data, compiled 43 rules of ML, performed AutoML, model deployment and evaluation |
 
-### Contribution
-1.Akshaya Easwaran - User Dashboard Creation, came up with the idea of using AutoML in GCP and contributed to creating models,  contributed to content in GitHub, contributed to 43 rules of machine learning activity. 
-
-2.Akshay Gupta - Feature selection and worked in the overall data modelling process using GCP's Auto ML. Also contributed in user dashboard creation.
-
-3.Herleen Sanhotra - Setting up project meetings, worked on the colab notebook for exploration and visualization of the dataset. Worked with initial AutoML trial where we imported the dataset into AutoML tables for training the model.
-
-4.Kanika Saini - Worked on Data Studio Visualizations and EDA part in the Google Colab notebook. Pitched in ideas for various ways to explore data.
-
-5.Mohammad Saif - 
 
 ## Research question 
 
