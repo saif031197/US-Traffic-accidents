@@ -145,6 +145,7 @@ Feature Importance:
 3. AutoML Tables under Artificial Intelligence Navigation menu for modeling the dataset and evaluating it
 4. GCP Data transfer to transfer the dataset between two of our buckets
 5. Billing to keep track of our project budget
+6. IAM and Admin to give access to the final project to group members
 
 
 ## Tentative plan for analysis on GCP
