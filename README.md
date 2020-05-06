@@ -140,7 +140,9 @@ Feature Importance:
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/Model_2_Feature_Importance.png">
 
 ## GCP functionalities used in the project
-1. Google Clooud Storage to store our dataset
+1. Google Cloud Storage to store our dataset
+2. Big Query to explore the dataset and to import dataset for modeling
+3. AutoML Tables under Artificial Intelligence Navigation menu for modeling the dataset and evaluating it
 
 
 ## Tentative plan for analysis on GCP
