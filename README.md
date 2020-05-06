@@ -140,7 +140,7 @@ Feature Importance:
 
 So now that we have our model ready, what can we do with it? We can take some real data and make batch predictions, deploy the model for predictions through an API or export the model as a TensorFlow pickle to use it locally, lets check out using predictions locally. So for our prediction we used [Craver Rd](https://www.ninertimes.com/arts_and_entertainment/craver-road-walk-sign-is-on/article_417bb1ae-d4cf-5792-9576-cf62289b56f5.html) in UNC Charlotte as the location of incident, at 10AM using weather report from 5th May 2020 and input the attributes for the model to predict the severity incase an accident does happen at the location.
 
-<img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/UNC_Charlotte_Map.jpg" width="480">
+<img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/UNC_Charlotte_Map.jpg" width="600">
 
 _UNC Charlotte Map_
 
