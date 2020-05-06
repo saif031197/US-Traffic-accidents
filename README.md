@@ -2,7 +2,7 @@
 
 Spring 2020 Knowledge Based Systems Final project
 # Project Site
-| [Google Cloud Console](https://console.cloud.google.com/home/dashboard?project=kbs-final-project) | [User Dashboard](https://datastudio.google.com/u/1/reporting/e3384c22-c9d5-4e66-b916-0e8ddf91c3f5/page/QryKB) | [Colab Notebook](https://colab.research.google.com/drive/1AL_JfULDYx4OxKifAW7gTJkpqUxHiG2M#scrollTo=QHzLs6Zflt-k) | [Presentation](https://drive.google.com/open?id=1INC212S_kL58sm_a-0ra7NPdxA9b1PlQ)
+| [Google Cloud Console](https://console.cloud.google.com/home/dashboard?project=kbs-final-project) | [User Dashboard](https://datastudio.google.com/u/1/reporting/e3384c22-c9d5-4e66-b916-0e8ddf91c3f5/page/QryKB) | [Colab Notebook](https://colab.research.google.com/drive/1AL_JfULDYx4OxKifAW7gTJkpqUxHiG2M#scrollTo=QHzLs6Zflt-k) | [Presentation](https://drive.google.com/open?id=1INC212S_kL58sm_a-0ra7NPdxA9b1PlQ) |
 | ------ | ------ | ------ | ------ |
 
 # Group Members
@@ -65,7 +65,7 @@ There are 3 million accident records in this dataset collected from February 201
 
 ## Detailed plan for data ingest, ML, Evaluation of Results and Presentation of Results
 
-#### Data Ingest 
+### Data Ingest 
 For this task we created a bucket on GCP and uploaded our dataset and made it public so that it can be accessed from anywhere by anyone and its especialyl useful when working on google colab outside of GCP
 
 ### Machine Learning
