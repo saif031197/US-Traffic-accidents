@@ -2,8 +2,8 @@
 
 Spring 2020 Knowledge Based Systems Final project
 # Project Site
-| [Google Cloud Console](https://console.cloud.google.com/home/dashboard?project=kbs-final-project) | [User Dashboard](https://datastudio.google.com/u/1/reporting/e3384c22-c9d5-4e66-b916-0e8ddf91c3f5/page/QryKB) | [Colab Notebook](https://colab.research.google.com/drive/1AL_JfULDYx4OxKifAW7gTJkpqUxHiG2M#scrollTo=QHzLs6Zflt-k) |
-| ------ | ------ | ------ |
+| [Google Cloud Console](https://console.cloud.google.com/home/dashboard?project=kbs-final-project) | [User Dashboard](https://datastudio.google.com/u/1/reporting/e3384c22-c9d5-4e66-b916-0e8ddf91c3f5/page/QryKB) | [Colab Notebook](https://colab.research.google.com/drive/1AL_JfULDYx4OxKifAW7gTJkpqUxHiG2M#scrollTo=QHzLs6Zflt-k) | [Presentation](https://drive.google.com/open?id=1INC212S_kL58sm_a-0ra7NPdxA9b1PlQ)
+| ------ | ------ | ------ | ------ |
 
 # Group Members
 | [Akshaya Easwaran](https://github.com/Akshuhrsh) | [Akshay Gupta](https://github.com/akshaygupta16) |  [Herleen Sanhotra](https://github.com/HerleenS) | [Kanika Saini](https://github.com/skanikasaini6) | [Mohammad Saif](https://github.com/saif031197) |
