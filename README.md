@@ -143,6 +143,8 @@ Feature Importance:
 1. Google Cloud Storage to store our dataset
 2. Big Query to explore the dataset and to import dataset for modeling
 3. AutoML Tables under Artificial Intelligence Navigation menu for modeling the dataset and evaluating it
+4. GCP Data transfer to transfer the dataset between two of our buckets
+5. Billing to keep track of our project budget
 
 
 ## Tentative plan for analysis on GCP
