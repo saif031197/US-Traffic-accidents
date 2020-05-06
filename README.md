@@ -36,6 +36,14 @@ This dataset is a countrywide traffic accident dataset that has been collected f
 
 This data can be used to carry out various predictions like accident-prone areas i.e geographic locations where it is most likely for accidents to occur, probability of severity of accidents. We can also predict what external factors contribute the most to vehicular accidents such as weather conditions (snow, rain, thunderstorm, etc) or accidents caused due to breaking traffic rules. The dataset briefly describes these factors using attributes such as Weather_Condition, Bump, Crossing, Give_way, Junction, No_exit, Railway, Traffic_Signal, etc. The data is also geographically sorted using the attributes City, County, State, Zipcode, and Country. Another vital information the dataset includes is the Period of the Day which indicates whether the accident occurs during the day or night. The NC driving handbook guide suggests that night time driving is much more dangerous than day time driving due to a number of reasons.
 
+## GCP functionalities used in the project
+1. Google Cloud Storage to store our dataset
+2. Big Query to explore the dataset and to import dataset for modeling
+3. AutoML Tables under Artificial Intelligence Navigation menu for modeling the dataset and evaluating it
+4. GCP Data transfer to transfer the dataset between two of our buckets
+5. Billing to keep track of our project budget
+6. IAM and Admin to give access to the final project to group members
+
 ### Preprocessing that may be necessary 
 
 1. The first and foremost preprocessing would be checking for NULL values. If a column contains more than 80% of missing values, that column shall be dropped. Data imputation needs to be done otherwise.
@@ -139,13 +147,24 @@ Feature Importance:
 
 <img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/Model_2_Feature_Importance.png">
 
-## GCP functionalities used in the project
-1. Google Cloud Storage to store our dataset
-2. Big Query to explore the dataset and to import dataset for modeling
-3. AutoML Tables under Artificial Intelligence Navigation menu for modeling the dataset and evaluating it
-4. GCP Data transfer to transfer the dataset between two of our buckets
-5. Billing to keep track of our project budget
-6. IAM and Admin to give access to the final project to group members
+So now that we have our model ready, what can we do with it? We can take some real data and make batch predictions, deploy the model for predictions through an API or export the model as a TensorFlow pickle to use it locally, lets check out using predictions locally. So for our prediction we used Craver Rd in UNC Charlotte as the location of incident, at 10AM using weather report from 5th May 2020 and input the attributes for the model to predict the severity incase an accident does happen at the location.
+
+<img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/UNC_Charlotte_Map.jpg">
+
+_UNC Charlotte Map_
+
+
+Result-
+
+<img src="https://github.com/saif031197/US-Traffic-accidents/blob/master/Results/Model_2_CLT_Prediction.png">
+
+Our result was somewhat as we expected it to be as Craver Rd is a low speed zone in the middle of the University area and any incident occuring there would'nt be as severe as a high speed accident happening on a busy freeway. The Model has 98% confidence in the severity of the accident being 2 which is a good indicator of its capabilities.
+
+## Conclusion
+
+To summarise, we used a big dataset in GCP to evaluate the severity of accidents if one occurs by chance, this model could be useful in realtime prediction for applications which can detect accidents and use the model provided to predict severity based on the data the application has, all in all this was a fun project to do and we're looking forward to work with GCP more on a larger scale.
+
+
 
 
 ## Tentative plan for analysis on GCP
